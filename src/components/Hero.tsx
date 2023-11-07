@@ -21,7 +21,7 @@ const Hero = ({}: Props) => {
       <BackgroundCircles />
       <ImageComponent
         src="/portfolio.png"
-        className="relative rounded-full w-32 h-32 mx-auto object-cover"
+        className="relative rounded-full w-32 h-32 mx-auto object-cover object-center"
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">

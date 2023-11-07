@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -25,14 +26,15 @@ const AnimatedImage = ({
   const defaultViewport = { once: false };
 
   return (
-    <motion.img
+    <motion.div
       initial={initial || defaultInitial}
       whileInView={whileInView || defaultWhileInView}
       transition={transition || defaultTransition}
       viewport={viewport || defaultViewport}
-      src={src}
       className={className}
-    />
+    >
+      <Image src={src} className={className} alt="" width={100} height={100} />
+    </motion.div>
   );
 };
 
