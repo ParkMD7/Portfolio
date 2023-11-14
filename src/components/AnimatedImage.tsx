@@ -22,7 +22,7 @@ const AnimatedImage = ({
 }: Props) => {
   const defaultInitial = { x: -200, opacity: 0 };
   const defaultWhileInView = { x: 0, opacity: 1 };
-  const defaultTransition = { duration: 1.2 };
+  const defaultTransition = { duration: 1.5 };
   const defaultViewport = { once: false };
 
   return (
