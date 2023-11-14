@@ -13,7 +13,7 @@ const Experience = (props: Props) => {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.2 }}
+      transition={{ duration: 1.5 }}
       viewport={{ once: true }}
       className="flex flex-col relative h-screen text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center"
     >
