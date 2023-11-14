@@ -14,7 +14,7 @@ const Skills = (props: Props) => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      // viewport={{ once: true }}
+      viewport={{ once: true }}
       className="flex flex-col relative h-screen text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 m-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
       <SectionHeader title="Skills" />
