@@ -18,7 +18,7 @@ const Experience = (props: Props) => {
       className="flex flex-col relative h-screen text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center"
     >
       <SectionHeader title="Experience" />
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-20">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-20 scrollbar-none">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
